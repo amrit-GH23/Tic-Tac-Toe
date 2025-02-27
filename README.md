@@ -36,6 +36,7 @@ git clone https://github.com/amrit-GH23/Tic-Tac-Toe.git
 
 Open index.html in your browser.
 
+
 🌍 Hosting on GitHub Pages
 Push your code to GitHub.
 Go to Settings → Pages.
