@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cont">
+        <h2>Tic-Tac-Toe</h2> 
+    <table>
+        <tbody>
+            <tr>
+                <td onclick="makeMove(0, 0)"></td>
+                <td onclick="makeMove(0, 1)"></td>
+                <td onclick="makeMove(0, 2)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(1, 0)"></td>
+                <td onclick="makeMove(1, 1)"></td>
+                <td onclick="makeMove(1, 2)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(2, 0)"></td>
+                <td onclick="makeMove(2, 1)"></td>
+                <td onclick="makeMove(2, 2)"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="message" id="message"></div>
+    <button onclick="resetGame()">Restart</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
